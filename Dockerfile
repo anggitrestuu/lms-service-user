@@ -22,6 +22,6 @@ EXPOSE 8084
 CMD npx sequelize-cli db:migrate && npm start
 
 
-# docker build -t service-user .
+# docker build -t service-user . 
 
 # docker run -it --rm -p 8084:8084 --name container-user service-user
