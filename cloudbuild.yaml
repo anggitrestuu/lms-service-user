@@ -17,6 +17,8 @@ steps:
       - 'gcr.io/$PROJECT_ID/lms-service-user'
       - '--region'
       - 'asia-southeast1'
+      - '--port'
+      - '8084'
       # You can customize the following flags as per your requirements
       - '--platform'
       - 'managed'
